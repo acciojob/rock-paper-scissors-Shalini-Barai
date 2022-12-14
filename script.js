@@ -23,7 +23,7 @@ function start(){
  //else{
 //a--;
  function gamea(){ 
-    console.log("hello");
+    
     a--;
         if(a==0){
             declareResult();

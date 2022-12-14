@@ -1,1 +1,4 @@
-{}
+{
+    "testRepo":"rock-paper-scissors",
+    "pathToFile": "cypress/integration/tests/test.spec.js"
+}
