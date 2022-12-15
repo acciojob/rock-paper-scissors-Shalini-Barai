@@ -33,7 +33,8 @@ function start(){
     console.log("gamea");
     let cpu1=Math.floor(Math.random()*3);
     let cpu2=['SCISSORS', 'PAPER' ,'ROCK'][0,1,2];
-    console.log(cpu2);
+    let cr=document.getElementById("cpuround");
+    cr.innerHTML=cpu2;
     if(cpu2=='ROCK'){
         document.getElementById('round-result').innerHTML="TIE";
     }
@@ -62,7 +63,9 @@ function start(){
     
     let cpu1=Math.floor(Math.random()*3);
     let cpu2=['SCISSORS', 'PAPER' ,'ROCK'][0,1,2];
-    console.log(cpu2);
+    let cr=document.getElementById("cpuround");
+    cr.innerHTML=cpu2;
+    
     if(cpu2=='PAPER'){
         document.getElementById('round-result').innerHTML="TIE";
     }
@@ -89,7 +92,9 @@ function start(){
     
     let cpu1=Math.floor(Math.random()*3);
     let cpu2=['SCISSORS', 'PAPER' ,'ROCK'][0,1,2];
-     console.log(cpu2);
+    let cr=document.getElementById("cpuround");
+    cr.innerHTML=cpu2;
+    
     if(cpu2=='SCISSORS'){
         document.getElementById('round-result').innerHTML="TIE";
     }
